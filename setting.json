@@ -2,9 +2,9 @@
   "automatch": false,
   "bagCap": 9,
   "cameraCfg": {
-    "canSwitchView": true,
+    "canSwitchView": false,
     "defaultPitch": 0,
-    "defaultView": 0,
+    "defaultView": 3,
     "defaultYaw": 0,
     "viewModeConfig": [
       {
@@ -40,7 +40,7 @@
       },
       {
         "distance": 4,
-        "enable": false,
+        "enable": true,
         "enableCollisionDetect": true,
         "lockBodyRotation": false,
         "lockSlideScreen": false,
@@ -281,7 +281,20 @@
   "useVoxelTerrain": true,
   "vars": {
     "__OBJ_TYPE": [],
-    "entity": [],
+    "entity": [
+      {
+        "key": "level",
+        "run_type": "server",
+        "save": true,
+        "value": 1
+      },
+      {
+        "key": "exp",
+        "run_type": "server",
+        "save": true,
+        "value": 0
+      }
+    ],
     "global": [],
     "ui": []
   },

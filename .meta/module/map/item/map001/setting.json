@@ -58,6 +58,27 @@
         "shadows": {
           "shadowsType": "hard"
         }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/player1",
+        "id": "8692911802860519425",
+        "name": "Player",
+        "position": {
+          "x": 4.0562009811401,
+          "y": 0.99989891052246,
+          "z": 1.2040195465088
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/4fa23ab5-42ce-495a-abcf-4a6632c0b5ba",
+        "id": "8692923409070637057",
+        "position": {
+          "x": 0.64663171768188,
+          "y": 0.99989986419678,
+          "z": 5.2112307548523
+        }
       }
     ],
     "name": {
@@ -70,7 +91,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "61d8841f101591413d45996410022c2d"
+      "setting.json": "68ced54e1b81956ed9a2660da9b4b290"
     },
     "VERSION": "0.21"
   }

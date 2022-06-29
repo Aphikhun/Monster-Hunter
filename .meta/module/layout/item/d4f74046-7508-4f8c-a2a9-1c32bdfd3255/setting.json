@@ -1,0 +1,147 @@
+{
+  "data": {
+    "md5": "87046a0e9a10ada0fa56a805637808ca",
+    "path": "asset/playerUI.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "DisabledImage": {
+            "asset": "asset/texture2/icon_red_act.png"
+          },
+          "HoverImage": {
+            "asset": "asset/texture2/icon_red_nor.png"
+          },
+          "HoverTextColour": {
+            "b": 106,
+            "g": 75,
+            "r": 240
+          },
+          "id": {
+            "value": "58743211-2a68-433c-b378-c688f5c2f812"
+          },
+          "NormalImage": {
+            "asset": "asset/texture2/icon_red_nor.png"
+          },
+          "NormalTextColour": {
+            "b": 106,
+            "g": 75,
+            "r": 240
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": 560.01825742381
+            },
+            "UDim_Y": {
+              "Offect": -196.77020410495
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/texture2/icon_red_act.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 70
+            },
+            "UDim_Y": {
+              "Offect": 70
+            }
+          },
+          "Text": "Status",
+          "TextOffset": {
+            "y": -5
+          },
+          "triggers": {
+            "list": [
+              {
+                "actions": [
+                  {
+                    "__OBJ_TYPE": "Action_CreateLayout",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Res_Layout",
+                              "rawval": {
+                                "asset": "asset/PlayerStatus.layout",
+                                "selector": "editor/Monster Hunter/asset/PlayerStatus.layout"
+                              }
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_String"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "57d62583-8fe7-40fa-a9c7-e273cbf71c03"
+                    },
+                    "pos": {
+                      "x": 715,
+                      "y": 330
+                    }
+                  }
+                ],
+                "custom_trigger_data": {
+                  "name": {
+                    "value": "1576ecab-661c-4888-8a0f-dadf5b216765"
+                  },
+                  "type": "Trigger_WidgetClicked"
+                },
+                "root": {
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Sequence",
+                      "children": [
+                        {
+                          "action": "57d62583-8fe7-40fa-a9c7-e273cbf71c03"
+                        }
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "186f10cf-9b67-46c7-a499-59b0ee76585c"
+                  }
+                },
+                "type": "Trigger_WidgetClicked"
+              }
+            ]
+          }
+        }
+      ],
+      "id": {
+        "value": "a9fe3f8e-4ab8-4a24-8520-ac331b2d4453"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "87046a0e9a10ada0fa56a805637808ca",
+      "triggers.bts": "d4686060572c7e0d7918e5d02c7c6219"
+    },
+    "VERSION": "0.21"
+  }
+}
