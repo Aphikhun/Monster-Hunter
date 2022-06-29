@@ -1,11 +1,16 @@
 {
   "data": {
     "canJoinMidway": false,
+    "canSwitchView": false,
+    "defaultView": "Follow",
     "enableNewLighting": true,
     "fixed_viewPos": {
       "pos": {
         "__OBJ_TYPE": "Vector3i"
       }
+    },
+    "follow_enable": {
+      "enable": true
     },
     "initPos": {
       "map": "map001",
@@ -31,14 +36,90 @@
         "z": 37
       }
     },
-    "unlimitedPlayTime": true
+    "triggers_client": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_CreateLayout",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Res_Layout",
+                        "rawval": {
+                          "asset": "asset/playerUI.layout",
+                          "selector": "editor/Monster Hunter/asset/playerUI.layout"
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "fef782b8-d3b8-4287-9ee7-3ae8b61740cc"
+              },
+              "pos": {
+                "x": 813,
+                "y": 321
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "14611653-fa2f-49f3-b5d8-80fdb073a519"
+            },
+            "type": "Trigger_ClientInitFinished"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "fef782b8-d3b8-4287-9ee7-3ae8b61740cc"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "7c150f03-26dc-4986-9dce-ae0d26055289"
+            }
+          },
+          "type": "Trigger_ClientInitFinished"
+        }
+      ]
+    },
+    "unlimitedPlayTime": true,
+    "vars": {
+      "entity": [
+        {
+          "key": "level",
+          "save": true,
+          "value": {
+            "rawval": 1
+          }
+        },
+        {
+          "key": "exp",
+          "save": true
+        }
+      ]
+    }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "a429424bfe086e227402a626e27e6d06",
+      "setting.json": "cb5dbade76e7ce216c4f0d563e64a37c",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": "",
-      "triggers_client.bts": ""
+      "triggers_client.bts": "ecb762bddeb8c0b2fd23d3e7b6c21760"
     },
     "VERSION": "0.21"
   }

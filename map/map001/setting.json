@@ -74,6 +74,37 @@
         "skyColor": "r:0.49803921568627 g:0.51372549019608 b:0.54509803921569 a:1.0",
         "skyLineColor": "r:0.23921568627451 g:0.22745098039216 b:0.2078431372549 a:1.0"
       }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/player1",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8692911802860519425",
+        "name": "Player",
+        "needSync": "true",
+        "position": "x:4.0562009811401 y:0.99989891052246 z:1.2040195465088",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true"
+      }
+    },
+    {
+      "class": "DropItem",
+      "config": "myplugin/4fa23ab5-42ce-495a-abcf-4a6632c0b5ba",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "fixRotation": false,
+        "id": "8692923409070637057",
+        "name": "DropItem",
+        "needSync": "true",
+        "position": "x:0.64663171768188 y:0.99989986419678 z:5.2112307548523",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true"
+      }
     }
   ],
   "skyBox": [

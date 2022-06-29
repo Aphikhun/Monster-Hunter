@@ -1,0 +1,9 @@
+ENTITY_DIE {
+	$maxExp = $obj2.level * 100
+	$obj2.exp = $obj2.exp + 50
+	If ($obj2.exp >= $maxExp) {
+		$obj2.exp = $obj2.exp - $maxExp
+		$obj2.level = $obj2.level + 1
+		ShowTip(entity = $obj2, keepTime = 60, textKey = Concat(p1 = "Level ", p2 = ToString($obj2.level)), tipType = "1")
+	}
+}
