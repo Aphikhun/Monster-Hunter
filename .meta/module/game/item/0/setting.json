@@ -14,7 +14,9 @@
     "initPos": {
       "map": "map001",
       "pos": {
-        "y": 1.04
+        "x": 2.1216065883636,
+        "y": 1.0399001026154,
+        "z": 3.7268977165222
       }
     },
     "nowTime": {
@@ -28,9 +30,9 @@
     "startPos": {
       "map": "map001",
       "pos": {
-        "x": 0,
-        "y": 1.04,
-        "z": 0
+        "x": 2.4832611083984,
+        "y": 1.0398998641968,
+        "z": 3.3711795806885
       }
     },
     "triggers_client": {
@@ -148,7 +150,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "9a36a2a25a525c064bad746751a7d1cb",
+      "setting.json": "d0835029082cf34b62328eac1ae1d7e1",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": "",
       "triggers_client.bts": "ecb762bddeb8c0b2fd23d3e7b6c21760"
