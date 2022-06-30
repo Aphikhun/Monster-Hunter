@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "fa3a62d052a0f43c80a7066fe940cd0b",
+    "md5": "bd0ad740a97afd5b39952de6c883c7a2",
     "path": "asset/PlayerStatus.layout",
     "root": {
       "anchor": {
@@ -140,8 +140,11 @@
                 "value": "28583ad6-2dd1-4ba9-8034-7661ff2c99a5"
               },
               "pos": {
+                "UDim_X": {
+                  "Offect": -2.2356021404266
+                },
                 "UDim_Y": {
-                  "Offect": 70
+                  "Offect": 50.993775844575
                 }
               },
               "size": {
@@ -169,10 +172,10 @@
               "name": "str",
               "pos": {
                 "UDim_X": {
-                  "Offect": -99.99994921686
+                  "Offect": -102.23561958245
                 },
                 "UDim_Y": {
-                  "Offect": -57.019598520474
+                  "Offect": -76.025818384366
                 }
               },
               "size": {
@@ -200,10 +203,10 @@
               "name": "agi",
               "pos": {
                 "UDim_X": {
-                  "Offect": -99.999982943696
+                  "Offect": -102.2356191967
                 },
                 "UDim_Y": {
-                  "Offect": -19.007144236566
+                  "Offect": -38.013304044155
                 }
               },
               "size": {
@@ -231,10 +234,10 @@
               "name": "int",
               "pos": {
                 "UDim_X": {
-                  "Offect": -99.999931821642
+                  "Offect": -102.23548277446
                 },
                 "UDim_Y": {
-                  "Offect": 19.005328656578
+                  "Offect": -0.00090002879759998
                 }
               },
               "size": {
@@ -262,10 +265,10 @@
               "name": "vit",
               "pos": {
                 "UDim_X": {
-                  "Offect": -99.999950490711
+                  "Offect": -102.2356208563
                 },
                 "UDim_Y": {
-                  "Offect": 57.017734823605
+                  "Offect": 38.011489806548
                 }
               },
               "size": {
@@ -293,10 +296,10 @@
               "name": "dex",
               "pos": {
                 "UDim_X": {
-                  "Offect": -99.999983072289
+                  "Offect": -102.23561932529
                 },
                 "UDim_Y": {
-                  "Offect": 95.03012318483
+                  "Offect": 76.023843597081
                 }
               },
               "size": {
@@ -324,10 +327,10 @@
               "name": "dex1",
               "pos": {
                 "UDim_X": {
-                  "Offect": 100
+                  "Offect": 97.764363665173
                 },
                 "UDim_Y": {
-                  "Offect": 95.03012318483
+                  "Offect": 76.023843597081
                 }
               },
               "size": {
@@ -355,10 +358,10 @@
               "name": "agi1",
               "pos": {
                 "UDim_X": {
-                  "Offect": 100
+                  "Offect": 97.764363665173
                 },
                 "UDim_Y": {
-                  "Offect": -19.007144236566
+                  "Offect": -38.013304044155
                 }
               },
               "size": {
@@ -386,10 +389,10 @@
               "name": "str1",
               "pos": {
                 "UDim_X": {
-                  "Offect": 100
+                  "Offect": 97.764363665173
                 },
                 "UDim_Y": {
-                  "Offect": -57.019598520474
+                  "Offect": -76.025818384366
                 }
               },
               "size": {
@@ -518,10 +521,10 @@
               "name": "vit1",
               "pos": {
                 "UDim_X": {
-                  "Offect": 100
+                  "Offect": 97.764363665173
                 },
                 "UDim_Y": {
-                  "Offect": 57.017734823605
+                  "Offect": 38.011489806548
                 }
               },
               "size": {
@@ -550,10 +553,10 @@
               "name": "int1",
               "pos": {
                 "UDim_X": {
-                  "Offect": 100
+                  "Offect": 97.764363665173
                 },
                 "UDim_Y": {
-                  "Offect": 19.005328656578
+                  "Offect": -0.00090002879759998
                 }
               },
               "size": {
@@ -580,10 +583,10 @@
               "name": "point",
               "pos": {
                 "UDim_X": {
-                  "Offect": -99.974695340509
+                  "Offect": -102.21031435495
                 },
                 "UDim_Y": {
-                  "Offect": 142.6696503343
+                  "Offect": 123.66347312217
                 }
               },
               "size": {
@@ -628,10 +631,10 @@
               },
               "pos": {
                 "UDim_X": {
-                  "Offect": 142.79772193804
+                  "Offect": 140.56215391022
                 },
                 "UDim_Y": {
-                  "Offect": -57.054472029208
+                  "Offect": -76.060657165432
                 }
               },
               "PushedImage": {
@@ -690,10 +693,10 @@
               "name": "point1",
               "pos": {
                 "UDim_X": {
-                  "Offect": 100
+                  "Offect": 97.764363665173
                 },
                 "UDim_Y": {
-                  "Offect": 142.90875865461
+                  "Offect": 123.90251327996
                 }
               },
               "size": {
@@ -749,7 +752,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "fa3a62d052a0f43c80a7066fe940cd0b",
+      "layout": "bd0ad740a97afd5b39952de6c883c7a2",
       "triggers.bts": "22735002ccfa8e34e3af006afadc1966"
     },
     "VERSION": "0.21"

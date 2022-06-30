@@ -280,7 +280,7 @@
                         </Property>
                     </Window>
                     <Window type="WindowsLook/StaticText" name="Text">
-                        <Property value="{{0,0},{0,70},{0,134.63296282292},{0,126.92526477763}}" name="Area">
+                        <Property value="{{0,-2.2356021404266},{0,50.993775844575},{0,132.39736068249},{0,107.9190406222}}" name="Area">
 
                         </Property>
                         <Property value="{{999,0},{999,0}}" name="MaxSize">
@@ -384,7 +384,7 @@
                         </Property>
                     </Window>
                     <Window type="WindowsLook/StaticText" name="str">
-                        <Property value="{{0,-99.99994921686},{0,-57.019598520474},{0,-44.218675851823},{0,-17.920095614258}}" name="Area">
+                        <Property value="{{0,-102.23561958245},{0,-76.025818384366},{0,-46.454346217416},{0,-36.92631547815}}" name="Area">
 
                         </Property>
                         <Property value="{{999,0},{999,0}}" name="MaxSize">
@@ -488,7 +488,7 @@
                         </Property>
                     </Window>
                     <Window type="WindowsLook/StaticText" name="agi">
-                        <Property value="{{0,-99.999982943696},{0,-19.007144236566},{0,-44.218709578659},{0,20.09235866965}}" name="Area">
+                        <Property value="{{0,-102.2356191967},{0,-38.013304044155},{0,-46.454345831666},{0,1.0861988620607}}" name="Area">
 
                         </Property>
                         <Property value="{{999,0},{999,0}}" name="MaxSize">
@@ -592,7 +592,7 @@
                         </Property>
                     </Window>
                     <Window type="WindowsLook/StaticText" name="int">
-                        <Property value="{{0,-99.999931821642},{0,19.005328656578},{0,-44.218658456605},{0,58.104831562794}}" name="Area">
+                        <Property value="{{0,-102.23548277446},{0,-0.00090002879759998},{0,-46.454209409426},{0,39.098602877418}}" name="Area">
 
                         </Property>
                         <Property value="{{999,0},{999,0}}" name="MaxSize">
@@ -696,7 +696,7 @@
                         </Property>
                     </Window>
                     <Window type="WindowsLook/StaticText" name="vit">
-                        <Property value="{{0,-99.999950490711},{0,57.017734823605},{0,-44.218677125674},{0,96.117237729821}}" name="Area">
+                        <Property value="{{0,-102.2356208563},{0,38.011489806548},{0,-46.454347491266},{0,77.110992712764}}" name="Area">
 
                         </Property>
                         <Property value="{{999,0},{999,0}}" name="MaxSize">
@@ -800,7 +800,7 @@
                         </Property>
                     </Window>
                     <Window type="WindowsLook/StaticText" name="dex">
-                        <Property value="{{0,-99.999983072289},{0,95.03012318483},{0,-44.218709707252},{0,134.12962609105}}" name="Area">
+                        <Property value="{{0,-102.23561932529},{0,76.023843597081},{0,-46.454345960256},{0,115.1233465033}}" name="Area">
 
                         </Property>
                         <Property value="{{999,0},{999,0}}" name="MaxSize">
@@ -904,7 +904,7 @@
                         </Property>
                     </Window>
                     <Window type="WindowsLook/StaticText" name="dex1">
-                        <Property value="{{0,100},{0,95.03012318483},{0,155.78127336504},{0,134.12962609105}}" name="Area">
+                        <Property value="{{0,97.764363665173},{0,76.023843597081},{0,153.54563703021},{0,115.1233465033}}" name="Area">
 
                         </Property>
                         <Property value="{{999,0},{999,0}}" name="MaxSize">
@@ -1008,7 +1008,7 @@
                         </Property>
                     </Window>
                     <Window type="WindowsLook/StaticText" name="agi1">
-                        <Property value="{{0,100},{0,-19.007144236566},{0,155.78127336504},{0,20.09235866965}}" name="Area">
+                        <Property value="{{0,97.764363665173},{0,-38.013304044155},{0,153.54563703021},{0,1.0861988620607}}" name="Area">
 
                         </Property>
                         <Property value="{{999,0},{999,0}}" name="MaxSize">
@@ -1112,7 +1112,7 @@
                         </Property>
                     </Window>
                     <Window type="WindowsLook/StaticText" name="str1">
-                        <Property value="{{0,100},{0,-57.019598520474},{0,155.78127336504},{0,-17.920095614258}}" name="Area">
+                        <Property value="{{0,97.764363665173},{0,-76.025818384366},{0,153.54563703021},{0,-36.92631547815}}" name="Area">
 
                         </Property>
                         <Property value="{{999,0},{999,0}}" name="MaxSize">
@@ -1216,7 +1216,7 @@
                         </Property>
                     </Window>
                     <Window type="WindowsLook/StaticText" name="vit1">
-                        <Property value="{{0,100},{0,57.017734823605},{0,155.78127336504},{0,96.117237729821}}" name="Area">
+                        <Property value="{{0,97.764363665173},{0,38.011489806548},{0,153.54563703021},{0,77.110992712764}}" name="Area">
 
                         </Property>
                         <Property value="{{999,0},{999,0}}" name="MaxSize">
@@ -1320,7 +1320,7 @@
                         </Property>
                     </Window>
                     <Window type="WindowsLook/StaticText" name="int1">
-                        <Property value="{{0,100},{0,19.005328656578},{0,155.78127336504},{0,58.104831562794}}" name="Area">
+                        <Property value="{{0,97.764363665173},{0,-0.00090002879759998},{0,153.54563703021},{0,39.098602877418}}" name="Area">
 
                         </Property>
                         <Property value="{{999,0},{999,0}}" name="MaxSize">
@@ -1424,7 +1424,7 @@
                         </Property>
                     </Window>
                     <Window type="WindowsLook/StaticText" name="point">
-                        <Property value="{{0,-99.974695340509},{0,142.6696503343},{0,-30.117264629132},{0,168.6934768375}}" name="Area">
+                        <Property value="{{0,-102.21031435495},{0,123.66347312217},{0,-32.352883643572},{0,149.68729962537}}" name="Area">
 
                         </Property>
                         <Property value="{{999,0},{999,0}}" name="MaxSize">
@@ -1528,7 +1528,7 @@
                         </Property>
                     </Window>
                     <Window type="WindowsLook/Button" name="increase_but">
-                        <Property value="{{0,142.79772193804},{0,-57.054472029208},{0,172.79772193804},{0,-27.054472029208}}" name="Area">
+                        <Property value="{{0,140.56215391022},{0,-76.060657165432},{0,170.56215391022},{0,-46.060657165432}}" name="Area">
 
                         </Property>
                         <Property value="{{999,0},{999,0}}" name="MaxSize">
@@ -1650,7 +1650,7 @@
                         </Property>
                     </Window>
                     <Window type="WindowsLook/StaticText" name="point1">
-                        <Property value="{{0,100},{0,142.90875865461},{0,155.78127336504},{0,182.00826156083}}" name="Area">
+                        <Property value="{{0,97.764363665173},{0,123.90251327996},{0,153.54563703021},{0,163.00201618618}}" name="Area">
 
                         </Property>
                         <Property value="{{999,0},{999,0}}" name="MaxSize">
