@@ -1,174 +1,174 @@
     <GUILayout version="4">
-        <Window name="Root" type="DefaultWindow">
-            <Window name="Button" type="WindowsLook/Button">
-                <Property name="Area" value="{{0,560.01825742381},{0,-196.77020410495},{0,630.01825742381},{0,-126.77020410495}}">
+        <Window type="DefaultWindow" name="Root">
+            <Property value="{{0,-50},{0,-100},{0,20},{0,-30}}" name="Area">
 
-                </Property>
-                <Property name="MaxSize" value="{{999,0},{999,0}}">
+            </Property>
+            <Property value="{{999,0},{999,0}}" name="MaxSize">
 
-                </Property>
-                <Property name="HorizontalAlignment" value="Centre">
+            </Property>
+            <Property value="Right" name="HorizontalAlignment">
 
-                </Property>
-                <Property name="VerticalAlignment" value="Centre">
+            </Property>
+            <Property value="Centre" name="VerticalAlignment">
 
-                </Property>
-                <Property name="Font" value="DroidSans-12">
+            </Property>
+            <Property value="w:1.0 x:0.0 y:0.0 z:0.0" name="Rotation">
 
-                </Property>
-                <Property name="WindowTouchThroughMode" value="MousePassThroughClose">
+            </Property>
+            <Property value="1" name="Alpha">
 
-                </Property>
-                <Property name="NormalTextColour" value="fff04b6a">
+            </Property>
+            <Property value="false" name="Disabled">
 
-                </Property>
-                <Property name="PushedStretch" value="0 0 0 0">
+            </Property>
+            <Property value="" name="SoundFile">
 
-                </Property>
-                <Property name="WindowTouchThroughAlpha" value="1">
+            </Property>
+            <Property value="MousePassThroughClose" name="WindowTouchThroughMode">
 
-                </Property>
-                <Property name="DisabledImage" value="gameres|asset/texture2/icon_red_act.png">
+            </Property>
+            <Property value="false" name="ClippedByParent">
 
-                </Property>
-                <Property name="PivotY" value="0.5">
+            </Property>
+            <Property value="1" name="WindowTouchThroughAlpha">
 
-                </Property>
-                <Property name="PushedTextColour" value="ffffffff">
+            </Property>
+            <Property value="None" name="SoundTriggerRange">
 
-                </Property>
-                <Property name="HoverImage" value="gameres|asset/texture2/icon_red_nor.png">
+            </Property>
+            <Property value="0.5" name="PivotY">
 
-                </Property>
-                <Property name="ClippedByParent" value="false">
+            </Property>
+            <Property value="1" name="Volume">
 
-                </Property>
-                <Property name="PivotX" value="0.5">
+            </Property>
+            <Property value="0.5" name="PivotX">
 
-                </Property>
-                <Property name="VertImageFormatting" value="Stretched">
+            </Property>
+            <Property value="true" name="Visible">
 
-                </Property>
-                <Property name="DisabledTextColour" value="ff888888">
+            </Property>
+              <Window type="WindowsLook/Button" name="Button">
+                  <Property value="{{0,0},{0,0},{0,70},{0,70}}" name="Area">
 
-                </Property>
-                <Property name="HorzImageFormatting" value="Stretched">
+                  </Property>
+                  <Property value="{{999,0},{999,0}}" name="MaxSize">
 
-                </Property>
-                <Property name="Text" value="Status">
+                  </Property>
+                  <Property value="Centre" name="HorizontalAlignment">
 
-                </Property>
-                <Property name="TextOffset" value="x:0 y:-5">
+                  </Property>
+                  <Property value="Centre" name="VerticalAlignment">
 
-                </Property>
-                <Property name="HoverStretch" value="0 0 0 0">
+                  </Property>
+                  <Property value="0 0 0 0" name="PushedStretch">
 
-                </Property>
-                <Property name="Font_size" value="12">
+                  </Property>
+                  <Property value="1" name="Alpha">
 
-                </Property>
-                <Property name="SoundFile" value="">
+                  </Property>
+                  <Property value="x:0 y:-5" name="TextOffset">
 
-                </Property>
-                <Property name="Volume" value="1">
+                  </Property>
+                  <Property value="fff04b6a" name="HoverTextColour">
 
-                </Property>
-                <Property name="btn_word_warpped" value="false">
+                  </Property>
+                  <Property value="false" name="Disabled">
 
-                </Property>
-                <Property name="PushedImage" value="gameres|asset/texture2/icon_red_act.png">
+                  </Property>
+                  <Property value="0" name="TextBoldWeight">
 
-                </Property>
-                <Property name="TextBoldWeight" value="0">
+                  </Property>
+                  <Property value="Stretched" name="VertImageFormatting">
 
-                </Property>
-                <Property name="NormalImage" value="gameres|asset/texture2/icon_red_nor.png">
+                  </Property>
+                  <Property value="false" name="btn_word_warpped">
 
-                </Property>
-                <Property name="NormalStretch" value="0 0 0 0">
+                  </Property>
+                  <Property value="false" name="ClippedByParent">
 
-                </Property>
-                <Property name="Visible" value="true">
+                  </Property>
+                  <Property value="None" name="SoundTriggerRange">
 
-                </Property>
-                <Property name="Rotation" value="w:1.0 x:0.0 y:0.0 z:0.0">
+                  </Property>
+                  <Property value="fff04b6a" name="NormalTextColour">
 
-                </Property>
-                <Property name="BorderWidth" value="0">
+                  </Property>
+                  <Property value="w:1.0 x:0.0 y:0.0 z:0.0" name="Rotation">
 
-                </Property>
-                <Property name="Disabled" value="false">
+                  </Property>
+                  <Property value="DroidSans-12" name="Font">
 
-                </Property>
-                <Property name="BorderColor" value="ffffffff">
+                  </Property>
+                  <Property value="Status" name="Text">
 
-                </Property>
-                <Property name="Alpha" value="1">
+                  </Property>
+                  <Property value="0 0 0 0" name="HoverStretch">
 
-                </Property>
-                <Property name="DisabledStretch" value="0 0 0 0">
+                  </Property>
+                  <Property value="false" name="AutoTextScale">
 
-                </Property>
-                <Property name="SoundTriggerRange" value="None">
+                  </Property>
+                  <Property value="true" name="Visible">
 
-                </Property>
-                <Property name="HoverTextColour" value="fff04b6a">
+                  </Property>
+                  <Property value="gameres|asset/texture2/icon_red_nor.png" name="HoverImage">
 
-                </Property>
-                <Property name="TextWordBreak" value="false">
+                  </Property>
+                  <Property value="gameres|asset/texture2/icon_red_act.png" name="DisabledImage">
 
-                </Property>
-                <Property name="AutoTextScale" value="false">
+                  </Property>
+                  <Property value="0.5" name="PivotX">
 
-                </Property>
-            </Window>
-              <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}">
+                  </Property>
+                  <Property value="1" name="WindowTouchThroughAlpha">
 
-              </Property>
-              <Property name="MaxSize" value="{{999,0},{999,0}}">
+                  </Property>
+                  <Property value="false" name="TextWordBreak">
 
-              </Property>
-              <Property name="HorizontalAlignment" value="Centre">
+                  </Property>
+                  <Property value="0 0 0 0" name="NormalStretch">
 
-              </Property>
-              <Property name="VerticalAlignment" value="Centre">
+                  </Property>
+                  <Property value="ff888888" name="DisabledTextColour">
 
-              </Property>
-              <Property name="Disabled" value="false">
+                  </Property>
+                  <Property value="0 0 0 0" name="DisabledStretch">
 
-              </Property>
-              <Property name="WindowTouchThroughAlpha" value="1">
+                  </Property>
+                  <Property value="gameres|asset/texture2/icon_red_act.png" name="PushedImage">
 
-              </Property>
-              <Property name="SoundFile" value="">
+                  </Property>
+                  <Property value="ffffffff" name="PushedTextColour">
 
-              </Property>
-              <Property name="PivotY" value="0.5">
+                  </Property>
+                  <Property value="0" name="BorderWidth">
 
-              </Property>
-              <Property name="Visible" value="true">
+                  </Property>
+                  <Property value="" name="SoundFile">
 
-              </Property>
-              <Property name="WindowTouchThroughMode" value="MousePassThroughClose">
+                  </Property>
+                  <Property value="12" name="Font_size">
 
-              </Property>
-              <Property name="ClippedByParent" value="false">
+                  </Property>
+                  <Property value="Stretched" name="HorzImageFormatting">
 
-              </Property>
-              <Property name="Rotation" value="w:1.0 x:0.0 y:0.0 z:0.0">
+                  </Property>
+                  <Property value="0.5" name="PivotY">
 
-              </Property>
-              <Property name="Alpha" value="1">
+                  </Property>
+                  <Property value="1" name="Volume">
 
-              </Property>
-              <Property name="SoundTriggerRange" value="None">
+                  </Property>
+                  <Property value="ffffffff" name="BorderColor">
 
-              </Property>
-              <Property name="Volume" value="1">
+                  </Property>
+                  <Property value="MousePassThroughClose" name="WindowTouchThroughMode">
 
-              </Property>
-              <Property name="PivotX" value="0.5">
+                  </Property>
+                  <Property value="gameres|asset/texture2/icon_red_nor.png" name="NormalImage">
 
-              </Property>
+                  </Property>
+              </Window>
         </Window>
     </GUILayout>

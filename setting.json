@@ -2,7 +2,7 @@
   "automatch": false,
   "bagCap": 9,
   "cameraCfg": {
-    "canSwitchView": false,
+    "canSwitchView": true,
     "defaultPitch": 0,
     "defaultView": 3,
     "defaultYaw": 0,
@@ -92,9 +92,9 @@
   "ignoreEmptyStartPos": false,
   "initPos": {
     "map": "map001",
-    "x": 7,
+    "x": 0,
     "y": 1.04,
-    "z": 37
+    "z": 0
   },
   "isTimeStopped": true,
   "jumpControlConfig": {
@@ -229,9 +229,9 @@
   "startPos": [
     {
       "map": "map001",
-      "x": 7,
+      "x": 0,
       "y": 1.04,
-      "z": 37
+      "z": 0
     }
   ],
   "team": [],
@@ -293,6 +293,36 @@
         "run_type": "server",
         "save": true,
         "value": 0
+      },
+      {
+        "key": "str",
+        "run_type": "server",
+        "save": true,
+        "value": 1
+      },
+      {
+        "key": "agi",
+        "run_type": "server",
+        "save": true,
+        "value": 1
+      },
+      {
+        "key": "int",
+        "run_type": "server",
+        "save": true,
+        "value": 1
+      },
+      {
+        "key": "vit",
+        "run_type": "server",
+        "save": true,
+        "value": 1
+      },
+      {
+        "key": "dex",
+        "run_type": "server",
+        "save": true,
+        "value": 1
       }
     ],
     "global": [],

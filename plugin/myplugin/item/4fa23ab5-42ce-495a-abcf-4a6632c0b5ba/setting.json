@@ -9,7 +9,8 @@
   "mesh": "asset/Mesh/Blue Frost Sword/crystal_sword.mesh",
   "needSave": true,
   "skill": [
-    "myplugin/6b5b739d-371a-4b7d-8039-cbad055d3c41"
+    "myplugin/6b5b739d-371a-4b7d-8039-cbad055d3c41",
+    "myplugin/9e1eff1f-d851-41b4-bdeb-fd7f1302b940"
   ],
   "stack_count_max": 1,
   "syncGameData": {

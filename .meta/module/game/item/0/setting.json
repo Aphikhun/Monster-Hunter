@@ -1,7 +1,6 @@
 {
   "data": {
     "canJoinMidway": false,
-    "canSwitchView": false,
     "defaultView": "Follow",
     "enableNewLighting": true,
     "fixed_viewPos": {
@@ -15,9 +14,7 @@
     "initPos": {
       "map": "map001",
       "pos": {
-        "x": 7,
-        "y": 1.04,
-        "z": 37
+        "y": 1.04
       }
     },
     "nowTime": {
@@ -31,9 +28,9 @@
     "startPos": {
       "map": "map001",
       "pos": {
-        "x": 7,
+        "x": 0,
         "y": 1.04,
-        "z": 37
+        "z": 0
       }
     },
     "triggers_client": {
@@ -110,13 +107,48 @@
         {
           "key": "exp",
           "save": true
+        },
+        {
+          "key": "str",
+          "save": true,
+          "value": {
+            "rawval": 1
+          }
+        },
+        {
+          "key": "agi",
+          "save": true,
+          "value": {
+            "rawval": 1
+          }
+        },
+        {
+          "key": "int",
+          "save": true,
+          "value": {
+            "rawval": 1
+          }
+        },
+        {
+          "key": "vit",
+          "save": true,
+          "value": {
+            "rawval": 1
+          }
+        },
+        {
+          "key": "dex",
+          "save": true,
+          "value": {
+            "rawval": 1
+          }
         }
       ]
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "cb5dbade76e7ce216c4f0d563e64a37c",
+      "setting.json": "9a36a2a25a525c064bad746751a7d1cb",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": "",
       "triggers_client.bts": "ecb762bddeb8c0b2fd23d3e7b6c21760"

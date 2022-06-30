@@ -4,6 +4,16 @@
       "btsKey": "d1ff7afc-7ef7-410f-a4d4-6208dc1ad2ca",
       "md5": "dea9ffb30fd77b22640d7bff198986ca",
       "name": "Image/Button"
+    },
+    {
+      "btsKey": "9eac3034-6f9b-41ea-a3cb-ae1e6046647a",
+      "md5": "42c990016cfc04e8bb1e3164ae43a414",
+      "name": "Image/str1"
+    },
+    {
+      "btsKey": "a34dcce5-fa50-48cb-9f59-11970ffdc013",
+      "md5": "e7a87b33060fdb9d556fbfb62661f1d0",
+      "name": "Image/increase_but"
     }
   ]
 }

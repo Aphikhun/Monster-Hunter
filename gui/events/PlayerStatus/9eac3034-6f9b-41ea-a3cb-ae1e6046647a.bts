@@ -1,0 +1,3 @@
+WIDGET_CREATE {
+	SetTextContext(instance = $instance, text = ToString(0))
+}
