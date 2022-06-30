@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "edaaa47279b4860a7025417acc3c541f",
+    "md5": "1e8a2349cd088653df15393622b9c48e",
     "path": "asset/PlayerStatus.layout",
     "root": {
       "anchor": {
@@ -643,6 +643,186 @@
                     }
                   },
                   "Text": "Points",
+                  "triggers": {
+                    "list": [
+                      {
+                        "actions": [
+                          {
+                            "__OBJ_TYPE": "Action_SetTextContext",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Widget",
+                                      "action": "abb8bfad-817a-4c27-9764-7e0c45730009"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Text",
+                                      "action": "5b069615-75d7-4447-bad4-75f4fa65c885",
+                                      "rawval": {
+                                        "value": "a79fed95-35a2-4bb8-b4d1-ca58454b8415"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "e86cad60-dd86-483f-8707-48f78378de7b"
+                            },
+                            "pos": {
+                              "x": 697,
+                              "y": 324
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_ToString",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "action": "8bd8640c-d583-4235-afca-2740767ed615"
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "5b069615-75d7-4447-bad4-75f4fa65c885"
+                            },
+                            "pos": {
+                              "x": 1144,
+                              "y": 492
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetUIVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_UiVar",
+                                      "rawval": "points"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Layout",
+                                      "action": "85ef57b2-c080-45a0-b308-deaf61bca7f5"
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "8bd8640c-d583-4235-afca-2740767ed615"
+                            },
+                            "pos": {
+                              "x": 1545,
+                              "y": 498
+                            },
+                            "type": "T_Int"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetWidgetByHierarchy",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Layout",
+                                      "action": "46bd78e9-7b7e-43d0-80da-7b2e0bada8d5"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Widget_Hierarchy",
+                                      "rawval": {
+                                        "path": "BG/DefaultWindow1/StatusPoint_left"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "abb8bfad-817a-4c27-9764-7e0c45730009"
+                            },
+                            "pos": {
+                              "x": 1131,
+                              "y": 300
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetContextVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Context",
+                                "key": "rootInstance"
+                              }
+                            ],
+                            "id": {
+                              "value": "46bd78e9-7b7e-43d0-80da-7b2e0bada8d5"
+                            },
+                            "pos": {
+                              "x": 1834,
+                              "y": 308
+                            },
+                            "type": "T_Layout"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetContextVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Context",
+                                "key": "rootInstance"
+                              }
+                            ],
+                            "id": {
+                              "value": "85ef57b2-c080-45a0-b308-deaf61bca7f5"
+                            },
+                            "pos": {
+                              "x": 1950,
+                              "y": 499
+                            },
+                            "type": "T_Layout"
+                          }
+                        ],
+                        "custom_trigger_data": {
+                          "name": {
+                            "value": "931ccb6e-d256-4bfc-981f-7c8d318cd726"
+                          },
+                          "type": "Trigger_WidgetCreate"
+                        },
+                        "root": {
+                          "components": [
+                            {
+                              "__OBJ_TYPE": "Component_Sequence",
+                              "children": [
+                                {
+                                  "action": "e86cad60-dd86-483f-8707-48f78378de7b"
+                                }
+                              ]
+                            }
+                          ],
+                          "id": {
+                            "value": "00e6687a-4018-4da2-b412-0b758aff0fc6"
+                          }
+                        },
+                        "type": "Trigger_WidgetCreate"
+                      }
+                    ]
+                  },
                   "VertFormatting": "CentreAligned"
                 },
                 {
@@ -819,6 +999,11 @@
       "id": {
         "value": "f91c743a-fbb8-45ec-be75-e192f2ec6863"
       },
+      "pos": {
+        "UDim_Y": {
+          "Scale": -0.05
+        }
+      },
       "size": {
         "UDim_X": {
           "Offect": 0,
@@ -833,8 +1018,8 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "edaaa47279b4860a7025417acc3c541f",
-      "triggers.bts": "6c1bfad73961a3f3abd41f8556c0a05e"
+      "layout": "1e8a2349cd088653df15393622b9c48e",
+      "triggers.bts": "c841cf7ec714e92d271b5f6124190e3d"
     },
     "VERSION": "0.21"
   }

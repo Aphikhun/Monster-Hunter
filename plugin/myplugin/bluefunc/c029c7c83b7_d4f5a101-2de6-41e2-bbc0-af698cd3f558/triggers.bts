@@ -1,19 +1,8 @@
-levelUp {
+getExp {
 	SetFuncContextVar(key = "maxExp", value = GetFuncsParamsVar(key = "player").level * 100)
 	GetFuncsParamsVar(key = "player").exp = GetFuncsParamsVar(key = "player").exp + GetFuncsParamsVar(key = "gainExp")
 	If (GetFuncsParamsVar(key = "player").exp >= GetFuncContextVar(key = "maxExp")) {
 		GetFuncsParamsVar(key = "player").exp = GetFuncsParamsVar(key = "player").exp - GetFuncContextVar(key = "maxExp")
-		GetFuncsParamsVar(key = "player").level = GetFuncsParamsVar(key = "player").level + 1
-		AddEntityBuff(
-			buffTime = 60,
-			cfg = "myplugin/99ddb495-8511-43cf-aea7-0d4815ddef78",
-			entity = GetFuncsParamsVar(key = "player")
-		)
-		ShowTip(
-			entity = GetFuncsParamsVar(key = "player"),
-			keepTime = 60,
-			textKey = Concat(p1 = "Level ", p2 = ToString(GetFuncsParamsVar(key = "player").level)),
-			tipType = "1"
-		)
+		ExecFunction(func_name = "levelUp", player = GetFuncsParamsVar(key = "player"))
 	}
 }

@@ -323,10 +323,23 @@
         "run_type": "server",
         "save": true,
         "value": 1
+      },
+      {
+        "key": "points",
+        "run_type": "server",
+        "save": true,
+        "value": 0
       }
     ],
     "global": [],
-    "ui": []
+    "ui": [
+      {
+        "key": "points",
+        "run_type": "client",
+        "save": true,
+        "value": 0
+      }
+    ]
   },
   "waitAtInitPos": true,
   "waitGoTime": 0,

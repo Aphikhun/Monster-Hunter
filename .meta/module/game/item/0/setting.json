@@ -50,7 +50,7 @@
                         "__OBJ_TYPE": "T_Res_Layout",
                         "rawval": {
                           "asset": "asset/playerUI.layout",
-                          "selector": "editor/Monster Hunter/asset/playerUI.layout"
+                          "selector": "editor/MonsterHunter/asset/playerUI.layout"
                         }
                       }
                     },
@@ -93,6 +93,183 @@
             }
           },
           "type": "Trigger_ClientInitFinished"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SetUIVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_UiVar",
+                        "rawval": "points"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Layout",
+                        "action": "b2f30c5c-ab26-481f-804a-2755f1549830"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "action": "e653a0da-8440-4f16-ac0c-364e665d2191"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "ce6f1bbe-4b20-4190-a5d2-88d0c565fe66"
+              },
+              "pos": {
+                "x": 726,
+                "y": 262
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ComputeInt",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "action": "49443cad-68dc-4c39-8b98-8f2c0e49eb53"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BinaryOperCompute"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 10
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "e653a0da-8440-4f16-ac0c-364e665d2191"
+              },
+              "pos": {
+                "x": 1162,
+                "y": 418
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetUIVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_UiVar",
+                        "rawval": "points"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Layout",
+                        "action": "a9b3aa53-17e3-4414-a155-8474c4d9a83e"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "49443cad-68dc-4c39-8b98-8f2c0e49eb53"
+              },
+              "pos": {
+                "x": 1639,
+                "y": 457
+              },
+              "type": "T_Int"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetWindowByName",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "PlayerStatus"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "b2f30c5c-ab26-481f-804a-2755f1549830"
+              },
+              "pos": {
+                "x": 1165,
+                "y": 267
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetWindowByName",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "PlayerStatus"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "a9b3aa53-17e3-4414-a155-8474c4d9a83e"
+              },
+              "pos": {
+                "x": 2058,
+                "y": 475
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "77805a49-d5a0-4dd8-a620-4c21a720ebb3"
+            },
+            "type": "Trigger_RegisterClientProto"
+          },
+          "func_name": "getPoints",
+          "proto_uuid": "48bb0808-eb2d-47f1-97cd-183044aa2afd",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "ce6f1bbe-4b20-4190-a5d2-88d0c565fe66"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "e9b2ede8-ad08-41be-a393-0dcd0ebb60ae"
+            },
+            "pos": {
+              "x": 230,
+              "y": 244
+            }
+          },
+          "type": "Trigger_RegisterClientProto"
         }
       ]
     },
@@ -144,16 +321,27 @@
           "value": {
             "rawval": 1
           }
+        },
+        {
+          "key": "points",
+          "save": true
+        }
+      ],
+      "ui": [
+        {
+          "key": "points",
+          "run_type": "client",
+          "save": true
         }
       ]
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "d0835029082cf34b62328eac1ae1d7e1",
+      "setting.json": "de013aa79bd548fb2ee5d2c3b23aa2de",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": "",
-      "triggers_client.bts": "ecb762bddeb8c0b2fd23d3e7b6c21760"
+      "triggers_client.bts": "937d5ffbb28d87cacb4fcfee022970bf"
     },
     "VERSION": "0.21"
   }

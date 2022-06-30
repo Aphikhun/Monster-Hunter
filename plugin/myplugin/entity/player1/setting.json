@@ -103,7 +103,7 @@
   "isPlayer": true,
   "jumpHeight": 0.6,
   "jumpSpeed": 0.5,
-  "maxHp": 20,
+  "maxHp": 100,
   "maxVisualAngle": 360,
   "meetCliffBackRun": true,
   "modelType": "System",
@@ -121,7 +121,8 @@
   "reviveTime": 40,
   "setFollowWhenCreate": true,
   "skillInfos": [
-    "myplugin/6b5b739d-371a-4b7d-8039-cbad055d3c41"
+    "myplugin/6b5b739d-371a-4b7d-8039-cbad055d3c41",
+    "myplugin/d1921951-f2db-4741-a6c9-7fd33382bbfd"
   ],
   "stepHeight": 0.6,
   "textHeight": 2.3,

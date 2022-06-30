@@ -1,0 +1,19 @@
+levelUp {
+	GetFuncsParamsVar(key = "player").level = GetFuncsParamsVar(key = "player").level + 1
+	AddEntityBuff(
+		buffTime = 60,
+		cfg = "myplugin/99ddb495-8511-43cf-aea7-0d4815ddef78",
+		entity = GetFuncsParamsVar(key = "player")
+	)
+	ShowTip(
+		entity = GetFuncsParamsVar(key = "player"),
+		keepTime = 60,
+		textKey = Concat(p1 = "Level ", p2 = ToString(GetFuncsParamsVar(key = "player").level)),
+		tipType = "1"
+	)
+	SendToClient(
+		msg = "client_48bb0808_eb2d_47f1_97cd_183044aa2afd",
+		p_points = 10,
+		player = GetFuncsParamsVar(key = "player")
+	)
+}

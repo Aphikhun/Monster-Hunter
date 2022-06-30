@@ -4,6 +4,11 @@
       "btsKey": "f2c83e2b-2d80-4d5f-b691-98c0afc9d78f",
       "md5": "dea9ffb30fd77b22640d7bff198986ca",
       "name": "BG/Close"
+    },
+    {
+      "btsKey": "86badc39-c3d5-4335-aaed-dc6bfdb79d71",
+      "md5": "f2767018492ae30f391ef7bdec7df7ef",
+      "name": "BG/DefaultWindow1/StatusPoint_left"
     }
   ]
 }

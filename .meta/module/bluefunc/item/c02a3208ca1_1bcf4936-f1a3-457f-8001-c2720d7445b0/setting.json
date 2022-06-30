@@ -1,0 +1,477 @@
+{
+  "data": {
+    "name": {
+      "value": "levelUp"
+    },
+    "params": [
+      {
+        "param_name": "player",
+        "param_type": "T_Entity"
+      }
+    ],
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "player"
+                }
+              ],
+              "function_name": "levelUp",
+              "id": {
+                "value": "932bdedd-b403-4358-b61f-a4ea1646c40c"
+              },
+              "pos": {
+                "x": 1299.0920776409,
+                "y": 954.93265094405
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_ToString",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Double",
+                        "action": "c4da84f4-24f3-4ed9-a0ab-27463f493f97"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "ceb4cce8-d98b-41fa-90ec-d40d9d645dff"
+              },
+              "pos": {
+                "x": 1636.2545294823,
+                "y": 1186.9331514949
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ComputeInt",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "action": "923224c7-b805-40bb-ba04-dce92443a6ce"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BinaryOperCompute"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 1
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "59472677-586b-4c4c-bbdd-0ad0e230e84c"
+              },
+              "pos": {
+                "x": 1184.7308594597,
+                "y": 281.11898192565
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "player"
+                }
+              ],
+              "function_name": "levelUp",
+              "id": {
+                "value": "9535cb44-6881-469c-acb7-5e9a1327c27b"
+              },
+              "pos": {
+                "x": 2489.4780274723,
+                "y": 1197.8497774645
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_ShowTip",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "932bdedd-b403-4358-b61f-a4ea1646c40c"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_TipType"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Text",
+                        "action": "b006c201-4d3a-4398-9b5a-90cf2721ae42",
+                        "rawval": {
+                          "value": "fd2f6c93-ed1c-4707-b0a1-85a887993381"
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 60
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "d714e8cd-c69d-43ec-bcb3-7255d2e56ad9"
+              },
+              "pos": {
+                "x": 767.0682624216,
+                "y": 983.30568561632
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "level"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "9535cb44-6881-469c-acb7-5e9a1327c27b"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "c4da84f4-24f3-4ed9-a0ab-27463f493f97"
+              },
+              "pos": {
+                "x": 2069.985388942,
+                "y": 1187.3262057179
+              },
+              "type": "T_Int"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "player"
+                }
+              ],
+              "function_name": "levelUp",
+              "id": {
+                "value": "eb1da63d-e8c6-447e-a245-caae162bc012"
+              },
+              "pos": {
+                "x": 1298.8795693437,
+                "y": 695.6746343904
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_Concat",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "Level "
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "action": "ceb4cce8-d98b-41fa-90ec-d40d9d645dff"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "b006c201-4d3a-4398-9b5a-90cf2721ae42"
+              },
+              "pos": {
+                "x": 1280.4131720499,
+                "y": 1165.1951876436
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "level"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "00c4ffbc-918e-4672-98f6-3f0e045125ac"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "923224c7-b805-40bb-ba04-dce92443a6ce"
+              },
+              "pos": {
+                "x": 1686.0686646964,
+                "y": 316.25
+              },
+              "type": "T_Int"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "player"
+                }
+              ],
+              "function_name": "levelUp",
+              "id": {
+                "value": "e3fa877f-406f-4733-92df-1fbe5fc644c8"
+              },
+              "pos": {
+                "x": 1277.3788454399,
+                "y": 491.35694577695
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_SetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "level"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "action": "59472677-586b-4c4c-bbdd-0ad0e230e84c"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "e3fa877f-406f-4733-92df-1fbe5fc644c8"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "bfe80414-739d-4878-824a-f1e18ace8f0e"
+              },
+              "pos": {
+                "x": 735.33780523668,
+                "y": 270.69830320942
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_AddEntityBuff",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "eb1da63d-e8c6-447e-a245-caae162bc012"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/99ddb495-8511-43cf-aea7-0d4815ddef78"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 60
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "4b85013b-0153-426c-aca1-17136b4c5d46"
+              },
+              "pos": {
+                "x": 754.49116540795,
+                "y": 662.81580843469
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "player"
+                }
+              ],
+              "function_name": "levelUp",
+              "id": {
+                "value": "00c4ffbc-918e-4672-98f6-3f0e045125ac"
+              },
+              "pos": {
+                "x": 2119.7790040545,
+                "y": 313.51558834449
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_Protocol_SendToClient",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Proto_Params_To_Client",
+                  "params": [
+                    {
+                      "data_type": "T_Int",
+                      "key": "points",
+                      "must": true,
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 10
+                      }
+                    }
+                  ],
+                  "params_default": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "18cf0669-b85c-4d5a-b326-06dc0d712ed7"
+                      }
+                    }
+                  ],
+                  "proto_id": "48bb0808-eb2d-47f1-97cd-183044aa2afd",
+                  "proto_name": "getPoints",
+                  "proto_type": "client"
+                }
+              ],
+              "id": {
+                "value": "4859164d-c9d1-4ed5-9d88-763963c42197"
+              },
+              "pos": {
+                "x": 744.29800793538,
+                "y": 1372.0943778129
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "player"
+                }
+              ],
+              "function_name": "levelUp",
+              "id": {
+                "value": "18cf0669-b85c-4d5a-b326-06dc0d712ed7"
+              },
+              "pos": {
+                "x": 1243.8757430728,
+                "y": 1382.804717171
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "5325a973-7234-45fd-80d8-acfecd95b06f"
+            },
+            "type": "Function_Called"
+          },
+          "func_name": "levelUp",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "bfe80414-739d-4878-824a-f1e18ace8f0e"
+                  },
+                  {
+                    "action": "4b85013b-0153-426c-aca1-17136b4c5d46"
+                  },
+                  {
+                    "action": "d714e8cd-c69d-43ec-bcb3-7255d2e56ad9"
+                  },
+                  {
+                    "action": "4859164d-c9d1-4ed5-9d88-763963c42197"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "6410ff20-fafb-4cf1-80a6-967388567403"
+            },
+            "pos": {
+              "x": 225,
+              "y": 286
+            }
+          },
+          "type": "Function_Called"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "4b252eef0ef000bdfdd76f41dffc7a7d",
+      "triggers.bts": "0b0e6cebb3f07aace3b9db12debeb803"
+    },
+    "VERSION": "0.21"
+  }
+}
